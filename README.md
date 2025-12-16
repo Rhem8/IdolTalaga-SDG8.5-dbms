@@ -30,3 +30,24 @@ This project implements a relational database system designed to support employm
 ## Contributors
 - Jamel Macadaub
 - Rimuel Loking
+
+
+
+## Whats Inside
+This project contains all the resources for demonstrating our database and interface work. Below is an overview of what you can find inside each folder:
+
+### 1_SQL_SCRIPTS
+This folder contains all the SQL scripts used in the project:
+- **1.1_DDL_Schema.sql** – Defines all tables, primary/foreign keys, and constraints.  
+- **1.2_DML_TestData.sql** – Sample data inserted into the tables for testing purposes.  
+- **1.3_StoredLogic.sql** – Stored procedures, triggers, and views used in the project.
+
+### 2_DEMO_INTERFACE
+This folder contains images or screenshots of the CLI, demonstrating how the SQL scripts and database work in practice.
+
+### 3_DOCUMENTATION
+All supporting documentation and diagrams are stored here:
+- **Final ER Diagrams** – Visual representation of database relationships.  
+- **SDAD or Documentation** – System Design and Analysis Document explaining the project flow and features.  
+- **transactionflowchart.png** – Flowchart illustrating transaction processes.
+
