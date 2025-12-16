@@ -109,6 +109,19 @@ WHERE PersonID = 4 AND ProgramID = 4;
 
 --------------------------------------------------------------------------------------------------
 
+-- Employment Distribution (View)
+CREATE VIEW EmploymentStatusReport AS
+SELECT
+	Status,
+    COUNT(*) AS TotalPeople
+FROM People
+GROUP BY Status;
+
+-- Show the status and the number of people 
+SELECT * FROM EmploymentStatusReport;
+
+--------------------------------------------------------------------------------------------------
+
 -- Training Program Completion Report (View)
 CREATE VIEW CompletedTrainingReport AS 
 SELECT  
