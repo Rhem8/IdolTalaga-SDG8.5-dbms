@@ -15,13 +15,12 @@ This project implements a relational database system designed to support employm
 - Version Control: GitHub
 
 ## Installation / Setup
-1. Clone the repository or download as ZIP
-2. Open the SQL client (MySQL / MariaDB)
-3. Execute scripts in the following order:
+1. Open the SQL client (MySQL / MariaDB)
+2. Execute scripts in the following order:
    - `1.1_DDL_Schema.sql`
    - `1.2_DML_TestData.sql`
    - `1.3_StoredLogic.sql`
-   - `1.4_DCL_Users.sql`
+
 
 ## Usage Instructions
 - Use the `ApplyForJob` stored procedure to demonstrate ACID transactions
